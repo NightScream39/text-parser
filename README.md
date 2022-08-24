@@ -10,22 +10,13 @@ https://www.python.org/downloads/
 https://pip.pypa.io/en/stable/installation/
 ```
 #### Make sure you are in the root folder of the project<br>
-#### Use the requirements.txt file to install dependencies:
-```
-pip install -r requirements.txt
-```
-#### To run the kfc site parser in command line, use the "kfcParser.py" file. Data file will be stored in data_file_kfc.json
 ~~~
-python kfcParser.py
+python parser.py #For Windows
+python3 parser.py #For Linux
 ~~~
-​#### To run the ZIKO website parser in command line, use the "zikoParser.py" file. Data file will be stored in data_file_ziko.json
+#### Check in current directory txt files<br>
 ~~~
-python zikoParser.py
+English.txt
+Russian.txt
 ~~~
-​
-#### To run the Monomax site parser in command line, use the "monomaxParser.py" file. Data file will be stored in data_file_monomax.json
-~~~ 
-python monomaxParser.py
-~~~
-##### In Monomax, due to js parsing, the code came out very unreliable. Sorry it's so late, I just saw your post in the mail last night.
 ​
