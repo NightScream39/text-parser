@@ -1,20 +1,16 @@
-# text-parser
+# Text-parser
 Eng-Ru text parser
 # MapParsers
-#### Install Python.
+#### Install Python (3.5+).
 ```
 https://www.python.org/downloads/
 ```
-#### Install the package installer PIP for Python:
-```
-https://pip.pypa.io/en/stable/installation/
-```
-#### Make sure you are in the root folder of the project<br>
+#### Make sure you are in the root folder of the project and use the command<br>
 ~~~
 python parser.py #For Windows
 python3 parser.py #For Linux
 ~~~
-#### Check in current directory txt files<br>
+#### Check in current directory for txt files<br>
 ~~~
 English.txt
 Russian.txt
