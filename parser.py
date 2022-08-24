@@ -1,21 +1,20 @@
 import re
 
 
-data_array = []
-
-
 def prepare_text():
     with open('PythonTest.txt') as PT:
         lines = PT.readlines()
-        pattern = re.compile(re.escape('#'))
+        pattern = re.compile('#')
+        data_array = []
         for line in lines:
             result = pattern.search(line)
             if result is None and line != '\n':
                 data_array.append(line)
+        return data_array
 
 
 def text_parser():
-    for string in data_array:
+    for string in prepare_text():
         array = string.rstrip().split('\t')
         array_eng = list(set(array[0].split(" ; ")))
         array_ru = list(set(array[1].split(" ; ")))
@@ -28,5 +27,4 @@ def text_parser():
 
 
 if __name__ == "__main__":
-    prepare_text()
     text_parser()
