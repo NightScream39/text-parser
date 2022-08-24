@@ -1,7 +1,8 @@
 # Text-parser
 Eng-Ru text parser
 # MapParsers
-#### Python v3.7+.
+
+#### Requirements: Python v3.7+.
 
 #### Make sure you are in the root folder of the project and use the command<br>
 ~~~
