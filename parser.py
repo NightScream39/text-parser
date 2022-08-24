@@ -14,7 +14,8 @@ def prepare_text():
 
 
 def text_parser():
-    for string in prepare_text():
+    dataset = prepare_text()
+    for string in dataset:
         array = string.rstrip().split('\t')
         array_eng = list(set(array[0].split(" ; ")))
         array_ru = list(set(array[1].split(" ; ")))
