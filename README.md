@@ -1,14 +1,13 @@
 # Text-parser
 Eng-Ru text parser
 # MapParsers
-#### Install Python.
+#### Python v3.7+.
 ```
 https://www.python.org/downloads/
 ```
 #### Make sure you are in the root folder of the project and use the command<br>
 ~~~
-python parser.py #For Windows
-python3 parser.py #For Linux
+python parser.py
 ~~~
 #### Check in current directory for txt files<br>
 ~~~
