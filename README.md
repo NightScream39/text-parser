@@ -1,7 +1,7 @@
 # Text-parser
 Eng-Ru text parser
 # MapParsers
-#### Install Python (3.5+).
+#### Install Python.
 ```
 https://www.python.org/downloads/
 ```
@@ -15,4 +15,3 @@ python3 parser.py #For Linux
 English.txt
 Russian.txt
 ~~~
-​
